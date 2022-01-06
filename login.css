@@ -1,0 +1,22 @@
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.validation-success {
+    color: green;
+}
+
+.validation-error {
+    color: #dc3545;
+}
