@@ -1,9 +1,9 @@
 <?php
 
     // $servername = "localhost";
-    // $username = "b031910250";
-    // $password = "5599";
-    // $dbname = "student_b031910250";
+    // $username = "b031920032";
+    // $password = "6107";
+    // $dbname = "student_b031920032";
 
     $servername = "localhost";
     $username = "root";

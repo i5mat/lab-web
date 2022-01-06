@@ -29,7 +29,6 @@
         <a href="welcome.php" class="<?= active_url(["welcome.php"]); ?>">Home</a>
         <a href="user-form.php" class="<?= active_url(["user-form.php", "p_form.php"]); ?>">Form</a>
         <a href="calculation-form.php" class="<?= active_url(["calculation-form.php", "order.php"]); ?>">Order Form</a>
-        <!-- <a href="#">Validation</a> -->
         <a href="read-file.php" class="<?= active_url(["read-file.php"]); ?>">Read File</a>
         <a href="write-file.php" class="<?= active_url(["write-file.php"]); ?>">Write File</a>
         <a href="golfer.php" class="<?= active_url(["golfer.php", "golfer-add-record.php", "golfer-view-record.php", "golfer-update-record.php", "golfer-delete-record.php"]); ?>">Golfer</a>

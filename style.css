@@ -1,5 +1,5 @@
 /*-------------------------*/
-/* [START] GENERAL [START] */
+/* START GENERAL */
 /*-------------------------*/
 
 * {
@@ -18,7 +18,13 @@ h1.title {
     color: #f2f2f2;
 }
 
-/* Add Left and Right Padding */
+input[type=text], input[type=password], input[type=email], input[type=number] {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+/* Left and Right Padding */
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -53,7 +59,7 @@ h1.title {
     text-align: center;
 }
 
-/* Style the footer */
+/* Footer Section */
 footer {
     position: fixed;
     left: 0;
@@ -71,21 +77,21 @@ footer {
 }
 
 /*---------------------*/
-/* [END] GENERAL [END] */
+/* END GENERAL */
 /*---------------------*/
 
 /*------------------------------------*/
-/* [START] TOP NAVIGATION BAR [START] */
+/* START TOP NAVIGATION BAR */
 /*------------------------------------*/
 
-/* Style the top navigation bar */
+/* top navigation bar style */
 nav.topnav {
     overflow: hidden;
     background-color: #333;
     margin-bottom: 30px;
 }
 
-/* Style the topnav links */
+/* topnav links style */
 nav.topnav a {
     float: left;
     color: #f2f2f2;
@@ -99,19 +105,17 @@ nav.topnav a:hover:not(.active) {
     background-color: #111;
 }
 
-/* Highlight active nav */
+/* Highlight current active nav */
 nav.topnav .active {
     background-color: #00BFFF;
 }
 
-
-
 /*--------------------------------*/
-/* [END] TOP NAVIGATION BAR [END] */
+/* END TOP NAVIGATION BAR */
 /*--------------------------------*/
 
 /*-----------------------*/
-/* [START] TABLE [START] */
+/* START TABLE */
 /*-----------------------*/
 
 table, th, td {
@@ -124,5 +128,5 @@ th, td {
 }
 
 /*-------------------*/
-/* [END] TABLE [END] */
+/* END TABLE */
 /*-------------------*/
