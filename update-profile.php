@@ -33,15 +33,15 @@
     <table align="center" border="1" width="50%">
         <tr>
             <th>Name: </th>
-            <td><input type="text" name="name" value="<?= $row['name']; ?>"></td>
+            <td><input placeholder="Enter your name" type="text" name="name" id="name" value="<?= $row['name']; ?>"></td>
         </tr>
         <tr>
             <th>Email: </th>
-            <td><input type=text name="email" value="<?= $row['email']; ?>"></td>
+            <td><input placeholder="Enter your email" type=text name="email" id="email" value="<?= $row['email']; ?>"></td>
         </tr>
         <tr>
             <th>Phone: </th>
-            <td><input type="text" name="phone" value="<?= $row['phone']; ?>"></td>
+            <td><input placeholder="Enter your phone" type="text" name="phone" id="phone" value="<?= $row['phone']; ?>"></td>
         </tr>
         <tr>
             <th>Gender: </th>
@@ -53,11 +53,19 @@
         <tr>
             <th colspan="2">
                 <button type="submit" name="submit">UPDATE</button> 
-                <button type="reset" name="clear">RESET</button>
+                <button type="reset" name="clear" onclick="myFunction()">RESET</button>
             </th>
         </tr>
     </table>
 
 </form>
+
+<script>
+function myFunction() {
+  document.getElementById("name").defaultValue = "";
+  document.getElementById("email").defaultValue = "";
+  document.getElementById("phone").defaultValue = "";
+}
+</script>
 
 <?php require_once ('footer.php');?>

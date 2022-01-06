@@ -7,15 +7,15 @@
     </tr>
     <tr>
         <td>Name:</td>
-        <td colspan="2"><input type="text" name="name" required></td>
+        <td colspan="2"><input type="text" placeholder="Enter your name" name="name" required></td>
     </tr>
     <tr>
         <td>Email:</td>
-        <td colspan="2"><input type="email" name="email" required></td>
+        <td colspan="2"><input type="email" placeholder="Enter your email" name="email" required></td>
     </tr>
     <tr>
         <td>Address:</td>
-        <td colspan="2"><textarea name="address" required></textarea></td>
+        <td colspan="2"><textarea name="address" placeholder="Enter your address" required></textarea></td>
     </tr>
     <tr>
         <th colspan="3">Ordering Details</th>
@@ -31,8 +31,8 @@
         <td><input type="number" name="quantity[0]" required></td>
     </tr>
     <tr>
-        <td>Nasi Ambeng:</td>
-        <td><input type="number" name="price[1]" value="7.80" required readOnly></td>
+        <td>Nasi Lemak:</td>
+        <td><input type="number" name="price[1]" value="5.80" required readOnly></td>
         <td><input type="number" name="quantity[1]" required></td>
     </tr>
     <tr>

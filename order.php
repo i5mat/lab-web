@@ -46,7 +46,7 @@
         <td><?= ($_POST['quantity'][0] ?? null); ?></td>
     </tr>
     <tr>
-        <td>Nasi Ambeng:</td>
+        <td>Nasi Lemak:</td>
         <td><?= ($_POST['price'][1] ?? null); ?></td>
         <td><?= ($_POST['quantity'][1] ?? null); ?></td>
     </tr>
@@ -56,7 +56,7 @@
         <td><?= ($_POST['quantity'][2] ?? null); ?></td>
     </tr>
     <tr>
-        <th colspan="2">Jumlah Bayaran:</th>
+        <th colspan="2">Total:</th>
         <th><?= $total_price; ?></th>
     </tr>
 </table>
